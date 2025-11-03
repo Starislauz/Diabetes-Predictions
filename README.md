@@ -38,7 +38,7 @@ This is a simple and powerful API built using **FastAPI** that predicts the like
  1. Clone the Repository
 
 bash
-git clone https://github.com/your-username/diabetes-predictor-api.git
+git clone https://github.com/Starislauz/diabetes-predictor-api.git
 cd diabetes-predictor-api
 
 Install Requirements
