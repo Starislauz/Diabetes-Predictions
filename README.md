@@ -2,9 +2,8 @@
 
 This is a simple and powerful API built using **FastAPI** that predicts the likelihood of diabetes based on patient health data. The model was trained using a machine learning algorithm and served using FastAPI.
 
----
 
-## 🚀 Features
+🚀 Features
 
 - ✅ Machine learning prediction using a pre-trained model  
 - ✅ REST API endpoint for predictions (`/predict`)  
@@ -12,9 +11,9 @@ This is a simple and powerful API built using **FastAPI** that predicts the like
 - ✅ Swagger UI documentation (`/docs`)  
 - ✅ Simple and clean setup  
 
----
 
-## 📦 Tech Stack
+
+📦 Tech Stack
 
 - Python 3.10+  
 - FastAPI  
@@ -34,11 +33,11 @@ This is a simple and powerful API built using **FastAPI** that predicts the like
 
 ---
 
-## ▶️ How to Run
+▶️ How to Run
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
-```bash
+bash
 git clone https://github.com/your-username/diabetes-predictor-api.git
 cd diabetes-predictor-api
 
@@ -46,7 +45,7 @@ Install Requirements
 pip install fastapi uvicorn pandas scikit-learn joblib
 
  Run the App
-uvicorn main:app --reload
+uvicorn main: app --reload
 
 The API will now be running at:
 http://127.0.0.1:8000
